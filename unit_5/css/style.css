@@ -1,0 +1,76 @@
+body {
+	color: #404040;
+	font-family: 'Catamaran', sans-serif;
+	margin: 40px 0px;
+}
+
+li {
+	display: inline;
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+nav {
+	margin: auto;
+	text-align: center;
+}
+
+#work {
+	padding: 0px 10px;
+}
+
+.logo {
+	display: block;
+	margin: auto;
+	text-align: center;
+	max-height: 50px; 
+}
+
+h1 {
+	font-weight: 700;
+	font-family: 'Unna', serif;
+	font-size: 15pt;
+	font-weight: 800;
+	text-align: center;
+}
+
+#slogan {
+	font-size: 12pt;
+	text-align: center;
+}
+
+/*hr {
+	height: 2px;
+	width: 70px;
+	background-color: #404040;
+}*/
+
+#images {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+
+#placeholder {
+	margin: auto;
+	float: left;
+	max-height: 33.3%;
+	max-width: 33.3%;
+}
+
+footer {
+	font-size: 8pt;
+	float: right;
+	bottom: 0px;
+	margin: 5px 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+span {
+	font-weight: bold;
+}

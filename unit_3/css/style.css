@@ -1,23 +1,24 @@
 body {
 	color: #404040;
-	font-family: "Helvetica", sans-serif;
+	font-family: 'Catamaran', sans-serif;
 	margin: 40px 0px;
 }
 
 h1 {
-	font-weight: normal;
-	font-size: 14pt;
+	font-weight: 700;
+	font-family: 'Unna', serif;
+	font-size: 15pt;
+	font-weight: 800;
 	text-align: center;
 }
 
 #slogan {
-	font-style: italic;
-	font-size: 14pt;
+	font-size: 12pt;
 	text-align: center;
 }
 
 hr {
-	height: 3px;
+	height: 2px;
 	width: 70px;
 	background-color: #404040;
 }
