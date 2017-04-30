@@ -1,0 +1,110 @@
+body {
+	/*color: #696969;*/
+	font-family: 'Catamaran', sans-serif;
+	font-size: 10pt;
+	font-weight: 500;
+	color: #FF3D2E;
+}
+
+header {
+	background-image: url("file:///Users/Gin/Desktop/ginhodge.github.io/unit_6/images/background-grey-white.jpg");
+	background-size: cover;
+	overflow: hidden;
+	height: 580px;
+}
+
+h1 {
+	font-size: 11pt;
+	padding: 0px 26px;
+	font-weight: 500;
+	float: left;
+	width: 20%;
+}
+
+#navbar {
+	padding: 10px 0px 0px 0px;
+}
+
+li {
+	text-decoration: none;
+	display: inline;
+	width: 20%;
+	padding: 0px 26px;
+}
+
+#navlink {
+	color: #FF3D2E;
+	float: right;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+#navlink:hover {
+	color: #404040;
+}
+
+#intro {
+    padding: 100px 26px;
+    clear: both;   
+    width: 35%;
+    font-size: 2em;
+    color: #FF3D19;
+}
+
+#bold {
+	font-size: 4.5em;
+	line-height: 1em;
+	font-weight: 800;
+}
+
+
+/*.logo {
+	display: block;
+	max-height: 50px;
+	text-align: left;
+	padding: 20px;
+}*/
+
+/*hr {
+	height: 2px;
+	width: 70px;
+	background-color: #404040;
+}*/
+
+#images {
+	clear: both;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#placeholder {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	float:left;
+}
+
+#placeholder:hover {
+	opacity: .5;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	clear: both;
+	font-size: 8pt;
+	font-weight: bold;
+	margin: 10px 5px;
+	text-align: right;
+	color: #696969;
+
+}
