@@ -5,6 +5,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Catamaran:200,500,800|Unna:400,400i,700,700i" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="icon" href="images/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
@@ -15,17 +16,16 @@
 				<h1>Gin Hodge Design & Illustration</h1>
 				<nav>
 				<ul>
-					<li><a id="navlink" href="#">ABOUT</a></li>
-					<li><a id="navlink" href="mailto:virginiafahodge@gmail.com?subject=Hello">CONTACT</a></li>
-					<li><a id="navlink" href="#">WORK</a></li>
+					<li><a class="navlink" href="#">ABOUT</a></li>
+					<li><a class="navlink" href="mailto:virginiafahodge@gmail.com?subject=Hello">CONTACT</a></li>
+					<li><a class="navlink" href="#">WORK</a></li>
 				</ul>
 				</nav>
 			</div>
-		<!--<img class="logo" src="images/logo.jpg" alt="logo">-->
-		<p id="intro" class="clearfix">
-			<span id="bold">HELLO.</span>
-			<br>I'm Gin, amateur designer and avid tea drinker. Thanks for stopping by.
-		</p>
+		<div id="intro">
+		<p id="hello" class="clearfix">HELLO.</p>
+		<p class="para">I'm Gin, amateur designer and avid tea drinker. Thanks for stopping by.</p>
+		</div>
 	</header>
 
 	<!--<hr>-->
@@ -37,7 +37,12 @@
 	</main>
 
 	<footer>
-		<p>Coded by Gin. Fueled by Tea.</p>
+		<div id="social">
+			<a href="https://twitter.com/GinHodge"><img src=""></a>
+			<a href="https://www.instagram.com/gin.hodge/"><img src=""></a>
+			<a href="https://www.linkedin.com/in/virginiahodge/"><img src=""></a>
+		</div>
+		<p id="bygin">Coded by Gin. Fueled by Tea.</p>
 	</footer>
 
 </body>

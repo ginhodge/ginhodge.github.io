@@ -1,0 +1,224 @@
+body {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 18pt;
+	font-weight: 500;
+	color: #FF3D2E;
+	line-height: 25px;
+}
+
+header {
+	background-image: url(../images/background-grey-white.jpg);
+	background-size: cover;
+	overflow: hidden;
+	width: 100%;
+	height: 600px;
+}
+
+h1 {
+	font-size: .6em;
+	font-weight: 500;
+	float: left;
+	width: 30%;
+	margin: 0 50px;
+}
+
+#navbar {
+	width: 100%;
+	height: 50px;
+	padding: 25px 50px 0 0;
+}
+
+#desktopnav li {
+	text-decoration: none;
+	display: inline;
+	padding: 0px 30px;
+	font-size: .75em;
+}
+
+/*#burger {
+	display: none;
+}*/
+
+#desktopnav .navlink {
+	color: #FF3D2E;
+	float: right;
+	padding: 0 10px;
+	text-decoration: none;
+	font-size: 0.8em
+}
+
+#navlink:hover {
+	color: #404040;
+}
+
+/*#mobilenav {
+	display: none;
+	background-color: #FF3D2E;
+}*/
+
+/*#mobilenav li {
+	display: block; 
+}*/
+
+/*#mobilenav .navlink {
+	display: block;
+	background-color: #FF3D2E;
+	width: 100%;
+	text-align: center;
+	font-size: 0.8em;
+	margin: 10px;
+	clear: both;
+}*/
+
+/*#mobilenav a {
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px;
+}*/
+
+#intro {
+	width: 80%;
+	height: 300px;
+}
+
+#hello {
+	font-size: 4em;
+	font-weight: 800;
+	margin: 200px 50px 0px 50px;
+}
+
+.para {
+	font-size: 1em;
+	margin: 50px 0px 0px 50px;
+}
+
+#images {
+	clear: both;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#placeholder {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	float:left;
+}
+
+#placeholder:hover {
+	opacity: .5;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	clear: both;
+	font-size: 0.5em;
+	font-weight: bold;
+	text-align: right;
+	color: #696969;
+	width: 100%;
+	height: 40px;
+
+}
+
+.icon {
+	width: 30px;
+	float: left;
+	padding: 25px 5px 5px 20px;
+}
+
+/*.icon-hover {
+	display: none;
+	width: 35px;
+	float: left;
+	padding: 0px 5px 10px 5px;
+}*/
+
+.icon:hover {
+	opacity: .5;
+}
+
+
+@media screen and (max-width: 745px) {
+
+body {font-size: 16pt;}
+
+#placeholder {
+	width: 100%;
+	float: none;
+}
+#placeholder:hover {
+	opacity: .5;
+}
+
+}
+
+@media screen and (max-width: 692px) {
+
+body {font-size: 14pt;}
+
+#placeholder {
+	width: 100%;
+	float: none;
+}
+
+#placeholder:hover {
+	opacity: .5;
+}
+
+#navbar {
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+}
+
+h1 {
+	display: none;
+
+}
+
+#desktopnav ul {
+	clear:both;
+	float: left;
+	width: 300px;
+	margin: auto;
+}
+
+.navlink {
+	float: left;
+	padding: 0;
+}
+
+#desktopnav li {
+	padding: 0px;
+	float: left;
+
+}
+
+/*#desktopnav {
+	display: none;
+
+}*/
+
+/*#burger {
+	display: inline;
+}*/
+
+.icon {
+	width: 25px;
+	float: left;
+	padding: 0px 5px;
+}
+
+}
